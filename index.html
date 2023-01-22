@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLW Setup - Hábitos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo Habits" />
+      <button>
+        <img src="./assets/plus.svg" alt="icone sinal de mais roxo" />
+        <div>register my day</div>
+      </button>
+    </header>
+
+    <main>
+      <form id="form-habits">
+        <!-- Botar emoji, tecla windowns + . -->
+        <div class="habits">
+          <div class="habit" data-name="dormir">💤</div>
+          <div class="habit" data-name="beber-agua">💦</div>
+          <div class="habit" data-name="cama">🛏️</div>
+          <div class="habit" data-name="orar">🙏</div>
+          <div class="habit" data-name="cafe">☕</div>
+          <div class="habit" data-name="estudar">📚</div>
+          <div class="habit" data-name="malhar">🏋️‍♀️</div>
+          <div class="habit" data-name="malhar">🧘</div>
+          <div class="habit" data-name="comer">🍽️</div>
+        </div>
+        <!-- div.e no nome da class cria a div com clase -->
+        <div class="days">
+          <div class="day">
+            <div>01/02</div>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+          <div class="day">
+            <div>02/02</div>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+
+  <script src="./script.js"></script>
+  </html>
